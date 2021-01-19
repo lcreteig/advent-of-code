@@ -23,3 +23,8 @@ jobs:
     - name: Test with pytest
       run: |
         pytest --verbose
+    - name: Lint with flake8
+      run: |
+        flake8 .
+    - name: Format with black
+      uses: psf/black@stable
