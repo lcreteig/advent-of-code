@@ -6,5 +6,5 @@ day = input("Day: ").zfill(2)
 
 os.chdir(f"{year}/{lang}/day{day}")
 
-if lang == 'python':
+if lang == "python":
     os.system(f"python -m day{day}")
